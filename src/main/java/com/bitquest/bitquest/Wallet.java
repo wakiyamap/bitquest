@@ -393,6 +393,8 @@ public class Wallet {
             return "live.blockcypher.com/btc-testnet/address/" + address;
         } if(address.substring(0,1).equals("D")) {
             return "live.blockcypher.com/doge/address/"+address;
+        } if(address.substring(0,1).equals("M")||address.substring(0,1).equals("P")) {
+            return "mona.chainseeker.info/addr/"+address;
         } else {
             return "live.blockcypher.com/btc/address/"+address;
         }
