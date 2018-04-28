@@ -280,7 +280,7 @@ public class  BitQuest extends JavaPlugin {
 
                 walletScoreboardObjective.setDisplaySlot(DisplaySlot.SIDEBAR);
 
-                walletScoreboardObjective.setDisplayName(ChatColor.GOLD + ChatColor.BOLD.toString() + "Bit" + ChatColor.GRAY + ChatColor.BOLD.toString() + "Quest");
+                walletScoreboardObjective.setDisplayName(ChatColor.GOLD + ChatColor.BOLD.toString() + "μMONA" + ChatColor.GRAY + ChatColor.BOLD.toString() + "Quest");
 
                 Score score = walletScoreboardObjective.getScore(ChatColor.GREEN + BitQuest.DENOMINATION_NAME); //Get a fake offline player
 
