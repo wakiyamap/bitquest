@@ -24,7 +24,7 @@ settings:
   late-bind: false
   sample-count: 12
   player-shuffle: 0
-  filter-creative-items: true
+  filter-creative-items: false
   user-cache-size: 1000
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
