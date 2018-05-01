@@ -20,6 +20,6 @@ public class ServerEvents implements Listener {
     public void onServerListPing(ServerListPingEvent event)
     {
 
-        event.setMotd(ChatColor.GOLD + ChatColor.BOLD.toString() + "μMONA" + ChatColor.GRAY + ChatColor.BOLD.toString() + "Quest"+ChatColor.RESET+" - The server that runs on Bitcoin ");
+        event.setMotd(ChatColor.GOLD + ChatColor.BOLD.toString() + "wats" + ChatColor.GRAY + ChatColor.BOLD.toString() + "Quest"+ChatColor.RESET+" - The server that runs on Bitcoin ");
     }
 }
