@@ -114,8 +114,6 @@ public class EntityEvents implements Listener {
         try {
             final Player player=event.getPlayer();
             // On dev environment, admin gets op. In production, nobody gets op.
-
-            player.setGameMode(GameMode.SURVIVAL);
             bitQuest.updateScoreboard(player);
             bitQuest.setTotalExperience(player);
             final String ip=player.getAddress().toString().split("/")[1].split(":")[0];
@@ -217,10 +215,6 @@ public class EntityEvents implements Listener {
         event.setAmount(0);
     }
 	
-	@EventHandler
-	public void onPlayerGameModeChange(PlayerGameModeChangeEvent event) throws ParseException, org.json.simple.parser.ParseException, IOException {
-		event.setCancelled(true);
-	}
 	
     @EventHandler
     public void onEnchantItemEvent(EnchantItemEvent event) throws ParseException, org.json.simple.parser.ParseException, IOException {
