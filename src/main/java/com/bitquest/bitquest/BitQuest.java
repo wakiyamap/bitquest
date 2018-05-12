@@ -62,7 +62,7 @@ public class  BitQuest extends JavaPlugin {
     public final static String BITCOIN_NODE_HOST = System.getenv("BITCOIN_NODE_HOST") != null ? System.getenv("BITCOIN_NODE_HOST") : "localhost";
     public final static int BITCOIN_NODE_PORT = System.getenv("BITCOIN_NODE_PORT") != null ? Integer.parseInt(System.getenv("BITCOIN_NODE_PORT")) : 18332;
     public final static Long DENOMINATION_FACTOR = System.getenv("DENOMINATION_FACTOR") != null ? Long.parseLong(System.getenv("DENOMINATION_FACTOR")) : 100L;
-    public final static String DENOMINATION_NAME = System.getenv("DENOMINATION_NAME") != null ? System.getenv("DENOMINATION_NAME") : "wats";
+    public final static String DENOMINATION_NAME = System.getenv("DENOMINATION_NAME") != null ? System.getenv("DENOMINATION_NAME") : "bits";
     public final static String BITCOIN_NODE_USERNAME = System.getenv("BITCOIN_NODE_USERNAME");
     public final static String BITCOIN_NODE_PASSWORD = System.getenv("BITCOIN_NODE_PASSWORD");
     public final static String DISCORD_HOOK_URL = System.getenv("DISCORD_HOOK_URL");
@@ -280,7 +280,7 @@ public class  BitQuest extends JavaPlugin {
 
                 walletScoreboardObjective.setDisplaySlot(DisplaySlot.SIDEBAR);
 
-                walletScoreboardObjective.setDisplayName(ChatColor.GOLD + ChatColor.BOLD.toString() + "wats" + ChatColor.GRAY + ChatColor.BOLD.toString() + "Quest");
+                walletScoreboardObjective.setDisplayName(ChatColor.GOLD + ChatColor.BOLD.toString() + "bits" + ChatColor.GRAY + ChatColor.BOLD.toString() + "Quest");
 
                 Score score = walletScoreboardObjective.getScore(ChatColor.GREEN + BitQuest.DENOMINATION_NAME); //Get a fake offline player
 
