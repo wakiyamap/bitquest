@@ -219,7 +219,7 @@ public class EntityEvents implements Listener {
 	
 	@EventHandler
 	public void onPlayerGameModeChange(PlayerGameModeChangeEvent event) throws ParseException, org.json.simple.parser.ParseException, IOException {
-		event.setCancelled(true);
+//		event.setCancelled(true);
 	}
 	
     @EventHandler
